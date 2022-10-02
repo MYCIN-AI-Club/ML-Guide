@@ -38,14 +38,14 @@
 <td>1</td>
 <td> Python Basics
 <td>Data Types and Type Conversion
-<td><i>Waiting for Cnntributor</i></td>
+<td><i>Waiting for Contributor</i></td>
 </tr>
 
 <tr>
 <td>2</td>
 <td> Functions
 <td> Functions and related subtopics
-<td><i>Waiting for Cnntributor</i></td>
+<td><i>Waiting for Contributor</i></td>
 </tr>
 
 <tr>
