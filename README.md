@@ -59,6 +59,13 @@
 
 <br><br>
 
+## Contributors
+#### Maintainer: <a href="github.com/kushagrathisside"><b>KUSHAGRA SRIVASTAVA</b></a>
+#### Other contributors:
+<a href="https://github.com/MYCIN-AI-Club/ML-Guide/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MYCIN-AI-Club/ML-Guide" />
+</a>
+
 ### Official Post: 
 <a href="https://www.instagram.com/p/CjLOr09plx9/?utm_source=ig_web_copy_link">Instagram</a>
 <br><br>
