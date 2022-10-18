@@ -1,0 +1,30 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+admission = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Admission%20Cha
+Serial No GRE Score TOEFL Score University Rating SOP LOR CGPA Research Ch
+admission.head()
+admission.info()
+admission.describe()
+admission.isna().sum()
+admission.nunique()
+sns.pairplot(admission)
+admission.columns
+y=admission['Chance of Admit ']
+X=admission[['Serial No', 'GRE Score', 'TOEFL Score', 'University Rating', ' SOP',
+'LOR ', 'CGPA', 'Research', ]]
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.30, random_state=2529
+X_train.shape, X_test.shape, y_train.shape, y_test.shape
+from sklearn.linear_model import LinearRegression
+model=LinearRegression()
+model.fit(X_train,y_train)
+LinearRegression()
+y_pred = model.predict(X_test)
+from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error, mean_square
+mean_absolute_error(y_test,y_pred)
+mean_squared_error(y_test, y_pred)
+sample = admission.sample()
+X_new = sample.loc[:,X.columns]
+model.predict(X_new)
